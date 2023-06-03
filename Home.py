@@ -76,11 +76,39 @@ with st.container():
 
     with col1:
         with st.container():
+            st.markdown(
+                """
+                <style>
+                .card-container {
+                    display: flex;
+                    justify-content: center;
+                }
+                </style>
+                """,
+                unsafe_allow_html=True,
+            )
+
+    with col1:
+        with st.container():
             Card1 = card(
                 text="Card 1",
                 title="Card 1",
                 image="https://img.freepik.com/free-vector/people-starting-business-project_23-2148866842.jpg?size=626&ext=jpg",
                 key="card1",
+            )
+
+    with col2:
+        with st.container():
+            st.markdown(
+                """
+                <style>
+                .card-container {
+                    display: flex;
+                    justify-content: center;
+                }
+                </style>
+                """,
+                unsafe_allow_html=True,
             )
 
     with col2:
@@ -92,6 +120,20 @@ with st.container():
                 key="card2",
             )
 
+
+    with col3:
+        with st.container():
+            st.markdown(
+                """
+                <style>
+                .card-container {
+                    display: flex;
+                    justify-content: center;
+                }
+                </style>
+                """,
+                unsafe_allow_html=True,
+            )
     with col3:
         with st.container():
             Card3 = card(
