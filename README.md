@@ -12,4 +12,5 @@
 ```pip install streamlit streamlit-card```
 <br>
 After setting everything up :
-![image](https://github.com/Geeky-Sam01/omdenaWebPortal/assets/71366418/42caf637-55b1-46f8-8556-3cd73edaf2b1)
+![multi-page](https://github.com/Geeky-Sam01/omdenaWebPortal/assets/71366418/349a7970-40a8-4fd3-a364-f4121f439f65)
+
