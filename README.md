@@ -8,3 +8,5 @@
 
 ## To run
   ```streamlit run app.py```
+## Requirements
+```pip install streamlit streamlit-card```
